@@ -1,0 +1,124 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box ;
+  }
+  
+  body {
+    background: linear-gradient(120deg, #ffd1dc, #ffd1dc, #efd1dc, #99CCFF);
+    color: #000000;
+    padding: 5px;
+    font-family: sans-serif;
+   }
+
+  a {
+    text-align: center;
+    margin: 20px auto;
+    color: #000;
+  }
+  
+  p {
+    margin: 20px auto;
+  }
+
+  #page-title {
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size: 75px;
+    padding: 50px;
+  }
+  
+  #banner {
+    background-image: url("https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  #instag:hover{
+    background: #99CCFF;
+     color: #99CCFF;
+   -webkit-background-clip: #99CCFF;
+   background-clip: #99CCFF;
+  /* Also define standard property for compatibility */
+  -webkit-text-fill-color: #99CCFF;
+  }
+    
+  #banner.content h1 {
+    position: relative;
+    top: 50px;
+    height: auto;
+    width: 400px;
+    margin: auto;
+    border: 3px solid #ffd1dc;
+    text-align: center;
+    color: #ffd1dc;
+    text-shadow: 1px 0 0 #000000, 0 -1px 0 #000000, 0 1px 0 #000000, -1px 0 0 #000000;
+  }
+  
+  #instag {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    font-size: 50px; /* change this to change the size*/
+    margin: 5px
+    }
+ 
+  #youtube {
+    color: red;
+    font-size: 50px;
+    margin: 5px;
+  }
+
+  /* Add a black background color to the top navigation */
+  .topnav {
+    background-color: black;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px 18px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ffd1dc !important;
+    color: #99CCFF !important;
+  }
+  
+  .links {
+    position: relative;
+    text-align: center;
+    color: #ffd1dc;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000000, -1px 0 0 #000000;
+    font-family: Helvetica
+  }
+  
+  .linksh:hover {
+    color: #779ecb;
+  }
+  
+  
+  .profile-pic {
+    background-image: url("https://yt3.ggpht.com/ytc/AKedOLQLCKstzP0kzRaZwoJyr1Xv3Hpt-XfaagTadYbk=s176-c-k-c0x00ffffff-no-rj");
+    background-size: 150px;
+    background-position: center;
+    height: 150px;
+    margin: 5px auto;
+  }
+  
